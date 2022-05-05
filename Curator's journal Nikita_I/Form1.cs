@@ -47,15 +47,10 @@ namespace Curator_s_journal_Nikita_I
                 label.Location = new Point(300, pos + 5);
                 this.Controls.Add(label);
 
-                CheckBox checkBox1 = new CheckBox();
-                checkBox1.Name = "stCheckBox" + i;
-                checkBox1.Location = new Point(380, pos);
-                this.Controls.Add(checkBox1);
-
-                CheckBox checkBox2 = new CheckBox();
-                checkBox2.Name = "stCheckBox" + i;
-                checkBox2.Location = new Point(490, pos);
-                this.Controls.Add(checkBox2);
+                CheckBox checkBox = new CheckBox();
+                checkBox.Name = "stCheckBox" + i;
+                checkBox.Location = new Point(380, pos);
+                this.Controls.Add(checkBox);
 
                 pos += 28;
             }
